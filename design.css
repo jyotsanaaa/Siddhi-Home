@@ -1,0 +1,108 @@
+body
+{
+	background-color:coral;
+	color: #000;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	margin:0;
+	line-height: 1.6em;
+}
+
+.container
+{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#main-header
+{
+	font-size:20px;
+	color:#000;
+}
+
+#navbar
+{
+	background-color:#DCDCDC;
+	color:#000;
+}
+
+
+#navbar ul
+{
+	padding:0;
+	margin: 10px;
+}
+
+#navbar li
+{
+	padding-right: 50px;
+	display: inline;
+}
+
+#navbar a
+{
+	color:#000;
+	text-decoration:none;
+	font-size:16px;
+}
+a:hover
+{
+	background-color:purple;
+	color:white;
+}
+.image
+{
+	float:left;
+	background-position:left;
+	min-height:300px; /*-> when the browser is made small the height of the letter increases */
+	text-align: center;
+	background-repeat: no-repeat;
+	width:500px;
+	margin: 20px;
+}
+
+#showcase
+{
+	float:right;
+	width:30%;
+	background-color:#000;
+	color:white;
+	text-align:left;
+	box-sizing: border-box;
+	font-size:16px;
+	margin-left: 10px;
+	margin-right:70px;
+	margin-top: 50px;
+	padding:5px;
+}
+
+#showcase h1
+{
+	float:right;
+	color: #fff;
+	font-size:18px;
+	line-height: 1.6em;
+}
+
+#sub-footer
+{
+	background-color:lightpink;
+	padding:10px 5px 10px 5px;
+	margin-top:5px;
+	color: black;
+	text-align:left;
+	display:inline-block;
+	border:double;
+	box-sizing:content-box;
+	display: inline-table;
+	margin-top:800px;
+
+}
+
+#main-footer
+{
+	color:blue;
+	text-align: center;
+	margin-top: 100px;
+}
